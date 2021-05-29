@@ -1,0 +1,25 @@
+.information {
+  background-color: $white;
+  margin-bottom: 80px;
+ 
+  &__inner {
+ display: flex;
+ flex-wrap: wrap;
+  }
+
+  &__title {
+    max-width: 583px;
+    width: 100%;
+    margin-right: 70px;
+    @extend%Bold;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: right;
+  }
+
+  &__text {
+    max-width: 540px;
+    width: 100%;
+  
+  }
+}

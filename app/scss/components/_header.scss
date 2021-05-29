@@ -1,0 +1,164 @@
+.header__top {
+   display: flex;
+  flex-wrap: wrap;
+}
+
+.header__logo {
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 30px;
+
+}
+
+.logo__text {
+  max-width: 144px;
+  font-size: 13px;
+  line-height: 16px;
+  color: #2F2F2F;
+  padding-top: 30px;
+  margin-bottom: 24px;
+}
+
+.header__search {
+  max-width: 320px;
+  width: 100%;
+  padding-top: 39px;
+  margin-bottom: 20px;
+  position: relative;
+  margin-right: 55px;
+}
+
+.search__site {
+  position: relative;
+  max-width: 265px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #D3D3D3;
+  outline: transparent;
+  padding: 0 0 10px 0;
+  font-size: 11px;
+  line-height: 13px;
+  color: $default;
+}
+
+.button {
+  background-color: $greybtn;
+  border: none;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  cursor: pointer;
+
+}
+
+.search__button {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 38px;
+  right: 50px;
+}
+
+
+.header__adress {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 225px;
+  width: 100%;
+  padding-top: 35px;
+  margin-bottom: 20px;
+  margin-right: 40px;
+  font-size: 16px;
+  line-height: 17px;
+
+}
+
+.adress__button {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: -48px;
+}
+
+
+.header__adress-text {
+  max-width: 170px;
+  width: 100%;
+  font-size: 16px;
+  line-height: 17px;
+}
+
+
+.header__phone {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 250px;
+  width: 100%;
+  padding-top: 30px;
+  margin-bottom: 20px;
+
+}
+
+.phone {
+  text-decoration: none;
+  @extend %Bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: $default;
+
+}
+
+.phone__button {
+  position: absolute;
+  background-color: #e51111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: -55px;
+}
+
+.phone__button::before {
+  content: "";
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: -7px;
+  top: -7px;
+  border: 1px solid #e51111;
+  border-radius: 50%;
+
+}
+
+.header__inner {
+  padding: 17px 130px 14px 107px;
+  background-color: $green1;
+
+}
+
+.menu {
+  margin: 0 auto;
+
+  &__list {
+    display: flex;
+    align-items: center
+  }
+
+  &__item:not(:last-child) {
+    margin-right: 85px;
+  }
+
+  &__link {
+    @extend %Calibri;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF,
+
+  }
+
+}
