@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8">
@@ -24,37 +24,41 @@
         <div class="header__search">
           <form class="search" action="#">
             <input class="search__site" type="text" placeholder="Поиск по сайту">
-
             <button class="button search__button" type="submit">
-              <img class="search" src="images/icons/search.svg" alt="images">
+              <svg class="search__icon">
+                <use xlink:href="images/icons/sprite.svg#search__icon"></use>
+              </svg>
             </button>
           </form>
         </div>
 
         <div class="header__adress">
           <button class="button adress__button" type="submit">
-            <img class="adress__images" src="images/icons/adress.svg" alt="adress">
+            <svg class="adress__icon">
+              <use xlink:href="images/icons/sprite.svg#adress__icon"></use>
+            </svg>
           </button>
-          <p class="header__adress-text">
+          <p class="adress__text">
             г. Москва,
-            <br>
-            <strong>ул. Угрешская, д.2, стр.7</strong></p>
-
+            <br> <strong> ул. Угрешская, д.2, стр.7</strong></p>
         </div>
 
         <div class="header__phone">
-
           <button class="button phone__button" type="submit">
-            <img class="phone__images" src="images/icons/phone.svg" alt="images">
+            <svg class="phone__icon">
+              <use xlink:href="images/icons/sprite.svg#phone__icon"></use>
+            </svg>
           </button>
           <a class="phone" href="tel:+7(495)0235695">+7 (495) 023-56-95</a>
-
         </div>
+
       </div>
+
     </div>
 
     <div class="header__inner">
       <div class="wrapper">
+
         <nav class="menu">
           <ul class="menu__list">
             <li class="menu__item">
@@ -83,13 +87,17 @@
             </li>
           </ul>
         </nav>
+
       </div>
+
     </div>
+
   </header>
 
   <main class="main">
 
     <section class="banner">
+
       <div class="banner__carousel">
 
         <div class="banner__slider" style="background-image: url(../images/banner-bg.jpg);">
@@ -102,7 +110,6 @@
               медицинских
               услуг - лабораторные, ультразвуковые и рентгенологические исследования; функциональная диагностика.</p>
           </div>
-
         </div>
 
         <div class="banner__slider" style="background-image: url(../images/banner-bg2.jpg);">
@@ -129,9 +136,10 @@
               услуг - лабораторные, ультразвуковые и рентгенологические исследования; функциональная
               диагностика.</p>
           </div>
-
         </div>
+
       </div>
+
     </section>
 
     <section class="information">
@@ -152,81 +160,320 @@
     <section class="about">
       <div class="container">
 
-      <div class="about__syncing">
+        <div class="about__syncing">
 
-        <div class="slider-nav">
+          <div class="slider-nav">
 
-          <div class="about__slider-btn">
+            <div class="about__slider-btn">
+              <div class="about__container">
+                <p class="about__slider-title">
+                  Отделение онкологии
+                </p>
+              </div>
+            </div>
 
-            <div class="about__container">
-              <p class="about__slider-title">
-                Отделение онкологии
-              </p>
+            <div class="about__slider-btn">
+              <div class="about__container">
+                <p class="about__slider-title">
+                  Отделение онкогинекологии
+                </p>
+              </div>
+            </div>
+
+            <div class="about__slider-btn">
+              <div class="about__container">
+                <p class="about__slider-title">
+                  Отделение маммологии
+                </p>
+              </div>
+            </div>
+
+            <div class="about__slider-btn">
+              <div class="about__container">
+                <p class="about__slider-title">
+                  Отделение онкоурологии
+                </p>
+              </div>
+            </div>
+
+            <div class="about__slider-btn">
+              <div class="about__container">
+                <p class="about__slider-title about__slider-title-last">
+                  Отделение
+                  опухолей печени
+                  и поджелудочной железы
+                </p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="slider-for" style="background-image: url(../images/about-bg.jpg);">
+            <div class="syncing__container">
+              <h1 class="title about__title">
+                Консультация врача-онколога в Москве
+              </h1>
+              <ul class="about__list">
+                <li class="list__items">скрининг рака;</li>
+                <li class="list__items">диагностику онкологического заболевания;</li>
+                <li class="list__items">стратегию лечения рака и контроль результатов;</li>
+                <li class="list__items">химиотерапию;</li>
+                <li class="list__items">ведение пациентов с онкологическими заболеваниями;
+                </li>
+                <li class="list__items">
+                  паллиативное и симптоматическое лечение.</li>
+              </ul>
             </div>
           </div>
 
-          <div class="about__slider-btn">
-            <div class="about__container">
-              <p class="about__slider-title">
-                Отделение онкогинекологии
-              </p>
-            </div>
-          </div>
-
-          <div class="about__slider-btn">
-            <div class="about__container">
-              <p class="about__slider-title">
-                Отделение маммологии
-              </p>
-            </div>
-          </div>
-
-          <div class="about__slider-btn">
-            <div class="about__container">
-              <p class="about__slider-title">
-                Отделение онкоурологии
-              </p>
-            </div>
-          </div>
-
-          <div class="about__slider-btn">
-            <div class="about__container">
-              <p class="about__slider-title about__slider-title-last">
-                Отделение
-                опухолей печени
-                и поджелудочной железы
-              </p>
-            </div>
-          </div>
-
-
-        </div>
-
-        <div class="about__syncing-for" style="background-image: url(../images/about-bg.jpg);">
-          <div class="about__syncing-container">
-            <h1 class="title about__title">
-              Консультация врача-онколога в Москве
-            </h1>
-            <ul class="about__list">
-              <li class="list__items">скрининг рака;</li>
-              <li class="list__items">диагностику онкологического заболевания;</li>
-              <li class="list__items">стратегию лечения рака и контроль результатов;</li>
-              <li class="list__items">химиотерапию;</li>
-              <li class="list__items">ведение пациентов с онкологическими заболеваниями;
-              </li>
-              <li class="list__items">
-                паллиативное и симптоматическое лечение.</li>
-            </ul>
-
-          </div>
         </div>
 
       </div>
 
+    </section>
+
+    <section class="hospitalisation">
+
+      <div class="hospitalisation__container">
+
+        <h1 class="title hospitalisation__title">
+          Порядок госпитализации и лечения
+        </h1>
+
+        <div class="hospitalisation__items">
+
+          <div class="hospitalisation__item">
+            <div class="hospitalisation__circle">
+              <svg class="hospitalisation__icon">
+                <use xlink:href="images/icons/sprite.svg#diagnostic__icon"></use>
+              </svg>
+            </div>
+            <p class="hospitalisation__item-title hospitalisation__item-title-diagnostic">
+              Диагностика 1-2 дня
+            </p>
+            <span class="hospitalisation__text">
+              Пару сток об этом пункте
+              в этой строчке
+            </span>
+          </div>
+
+          <div class="hospitalisation__item">
+            <div class="hospitalisation__circle">
+              <svg class="hospitalisation__icon">
+                <use xlink:href="images/icons/sprite.svg#biopsy__icon"></use>
+              </svg>
+            </div>
+            <p class="hospitalisation__item-title hospitalisation__item-title-biopsy">
+              Подбор тактики лечения 1 день
+            </p>
+            <span class="hospitalisation__text">
+              Пару сток об этом пункте
+              в этой строчке
+            </span>
+          </div>
+
+          <div class="hospitalisation__item">
+            <div class="hospitalisation__circle">
+              <svg class="hospitalisation__icon">
+                <use xlink:href="images/icons/sprite.svg#operation__icon"></use>
+              </svg>
+            </div>
+            <p class="hospitalisation__item-title hospitalisation__item-title-operation">
+              Операция или курс химиотерапии
+              <br> 1 день
+            </p>
+            <span class="hospitalisation__text">
+              Пару сток об этом пункте
+              в этой строчке
+            </span>
+          </div>
+
+          <div class="hospitalisation__item">
+            <div class="hospitalisation__circle">
+              <svg class="hospitalisation__icon">
+                <use xlink:href="images/icons/sprite.svg#rehabilitation__icon"></use>
+              </svg>
+            </div>
+            <p class="hospitalisation__item-title">
+              Реабилитация
+              3-5 дней
+            </p>
+            <span class="hospitalisation__text">
+              Пару сток об этом пункте
+              в этой строчке
+            </span>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="doctors" style="background-image: url(../images/Group-3.jpg);">
+      <div class="wrapper">
+
+      </div>
+
+
+    </section>
+
+    <section class="warranty">
+
+      <div class="warranty__container">
+
+        <h1 class="title warranty__title">
+          Гарантии пациентам
+        </h1>
+
+        <div class="warranty__items">
+
+          <div class="warranty__item">
+            <div class="warranty__circle">
+              <svg class="warranty__icon">
+                <use xlink:href="images/icons/sprite.svg#diagnostic__icon"></use>
+              </svg>
+            </div>
+            <div class="warranty__information">
+              <p class="warranty__item-title">
+                Удобная госпитализация
+              </p>
+              <p class="warranty__text">
+                Ежедневная госпитализация пациентов, которым требуются плановая и экстренная хирургическая помощь или
+                диагностические исследования со специальной подготовкой.
+              </p>
+            </div>
+          </div>
+
+          <div class="warranty__item">
+            <div class="warranty__circle">
+              <svg class="warranty__icon">
+                <use xlink:href="images/icons/sprite.svg#biopsy__icon"></use>
+              </svg>
+            </div>
+            <div class="warranty__information">
+              <p class="warranty__item-title">
+                Комфортабельные палаты
+              </p>
+              <p class="warranty__text">
+                Палаты стационара были созданы с учетом всех потребностей пациента во время лечения. Особое внимание мы
+                уделили не
+                только оборудованию, но и внешнему виду.
+              </p>
+            </div>
+          </div>
+
+          <div class="warranty__item">
+            <div class="warranty__circle">
+              <svg class="warranty__icon">
+                <use xlink:href="images/icons/sprite.svg#operation__icon"></use>
+              </svg>
+            </div>
+            <div class="warranty__information">
+              <p class="warranty__item-title warranty__item-title-operation">
+                Индивидуально подобранное лечение
+              </p>
+              <p class="warranty__text warranty__text-operation">
+                У нас нет стандартного подхода даже к одинаковым случаям – каждого пациента мы лечим с учетом
+                особенностей его
+                организма и всех сопутствующих заболеваний.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="tur">
+      <h1 class="title tur__title">
+        3D тур по клинике
+      </h1>
+      <div class="tur__block" style="background-image: url(../images/tur-bg.jpg);">
+        <a class="tur__link" href="https://poly.google.com/view/0u3WyR37ytb" target="_blank">
+        </a>
       </div>
     </section>
 
+    <section class="tur-gallery">
+      <div class="container">
 
+        <div class="tur-gallery__carousel">
+
+          <div class="tur-gallery__slider" style="background-image: url(../images/terapy.jpg);">
+            <div class="tur-gallery__container">
+              <a class="tur-gallery__link tur-gallery__link-terapeft" href="#">
+                Терапевтическое отделение
+              </a>
+              <svg class="tur-gallery__icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 12H16.25L11 6.75L11.664 6L18.164 12.5L11.664 19L11 18.25L16.25 13H4V12Z" fill="white" />
+              </svg>
+            </div>
+          </div>
+
+          <div class="tur-gallery__slider" style="background-image: url(../images/mrt.jpg);">
+            <div class="tur-gallery__container">
+              <a class="tur-gallery__link tur-gallery__link-diagnostic" href="#">
+                Отделение лучевой диагностики
+              </a>
+              <svg class="tur-gallery__icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 12H16.25L11 6.75L11.664 6L18.164 12.5L11.664 19L11 18.25L16.25 13H4V12Z" fill="white" />
+              </svg>
+            </div>
+          </div>
+
+          <div class="tur-gallery__slider" style="background-image: url(../images/ortoped.jpg);">
+            <div class="tur-gallery__container">
+              <a class="tur-gallery__link tur-gallery__link-ortoped" href="#">
+                Отделение травматологии и ортопедии
+              </a>
+              <svg class="tur-gallery__icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 12H16.25L11 6.75L11.664 6L18.164 12.5L11.664 19L11 18.25L16.25 13H4V12Z" fill="white" />
+              </svg>
+            </div>
+          </div>
+
+          <div class="tur-gallery__slider" style="background-image: url(../images/stacionar.jpg);">
+            <div class="tur-gallery__container">
+              <a class="tur-gallery__link tur-gallery__link-stacionar" href="#">
+                Стационар
+              </a>
+              <svg class="tur-gallery__icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 12H16.25L11 6.75L11.664 6L18.164 12.5L11.664 19L11 18.25L16.25 13H4V12Z" fill="white" />
+              </svg>
+            </div>
+          </div>
+
+          <div class="tur-gallery__slider" style="background-image: url(../images/stacionar.jpg);">
+            <div class="tur-gallery__container">
+              <a class="tur-gallery__link tur-gallery__link-stacionar" href="#">
+                Стационар
+              </a>
+              <svg class="tur-gallery__icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 12H16.25L11 6.75L11.664 6L18.164 12.5L11.664 19L11 18.25L16.25 13H4V12Z" fill="white" />
+              </svg>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="map">
+      <div class="map__block" style="background-image: url(../images/map.jpg);">
+        <a class="map__link" href="https://goo.gl/maps/7LNAxUWVQExLZgde7" target="_blank">
+        </a>
+      </div>
+    </section>
 
   </main>
 
@@ -235,7 +482,7 @@
 
       <div class="footer__top">
 
-        <div class="footer__infornation">
+        <div class="footer__information">
 
           <div class="footer__logo">
             <a class="logo" href="#">
@@ -248,7 +495,6 @@
 
           <div class="footer__connection">
             <a class="footer__phone " href="tel:+7(495)0235695">+7 (495) 023-56-95</a>
-
             <p class="footer__adress">
               г. Москва,
               <br>
@@ -278,7 +524,7 @@
               </li>
               <li class="footer__item">
                 <a class="footer__link" href="#">Отделение реанимации и
-                  <br> интенсивной терапии</a>
+                  интенсивной <br>терапии</a>
               </li>
               <li class="footer__item">
                 <a class="footer__link" href="#">Отделение паллиативной помощи</a>
@@ -367,66 +613,51 @@
       </div>
 
       <div class="footer__bottom">
-        <p class="footer__copy">© 2008-2020 НАКФФ
-          Политика обработки персональных данных
-        </p>
+
+        <div class="footer__copy">
+          <p class="footer__copy-text"> © 2008-2020 НАКФФ</p>
+          <a class="footer__copy-link" href="#"> Политика обработки персональных данных</a>
+        </div>
+
         <div class="footer__social">
           <ul class="footer__social-lits">
             <li class="footer__social-item">
               <a class="footer__social-link" href="#">
-                <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M7.54888 20V10.8777H10.6096L11.0688 7.32156H7.54888V5.05147C7.54888 4.0222 7.83353 3.32076 9.31117 3.32076L11.1927 3.31999V0.13923C10.8673 0.0969453 9.75039 0 8.45039 0C5.7358 0 3.87733 1.65697 3.87733 4.69927V7.32156H0.807312V10.8777H3.87733V20H7.54888Z"
-                    fill="white" fill-opacity="0.51" />
-                </svg>
-
-              </a></li>
-            <li class="footer__social-item">
-              <a class="footer__social-link" href="#">
-                <svg width="20" height="12" viewBox="0 0 20 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M17.2127 7.53743C17.8762 8.18515 18.5764 8.79456 19.1714 9.5076C19.4342 9.82446 19.6831 10.1514 19.8735 10.5192C20.1432 11.0419 19.8989 11.6171 19.4302 11.6484L16.5165 11.647C15.765 11.7094 15.1655 11.4069 14.6615 10.8931C14.2581 10.4822 13.8845 10.0449 13.4966 9.6201C13.3376 9.44649 13.1711 9.28313 12.9723 9.154C12.5745 8.89582 12.2293 8.97487 12.002 9.38971C11.7705 9.81165 11.718 10.2789 11.6952 10.7491C11.664 11.4352 11.4566 11.6156 10.7675 11.647C9.2946 11.7164 7.89679 11.4936 6.59826 10.7506C5.45343 10.0956 4.56566 9.17089 3.79296 8.12404C2.28849 6.0856 1.13637 3.84568 0.100885 1.54302C-0.132195 1.02422 0.0382615 0.745736 0.610676 0.735879C1.5612 0.717414 2.51158 0.718728 3.46322 0.734565C3.84954 0.740216 4.10529 0.961795 4.25445 1.32676C4.76871 2.59125 5.39797 3.7943 6.18782 4.90942C6.39817 5.20631 6.61265 5.50319 6.91808 5.71216C7.25597 5.94353 7.51323 5.86684 7.67218 5.49045C7.77305 5.25178 7.81721 4.99472 7.83995 4.7391C7.91525 3.85968 7.92517 2.98177 7.79309 2.10544C7.712 1.55852 7.40395 1.20447 6.85821 1.10097C6.57973 1.04821 6.62119 0.944579 6.75603 0.785623C6.99023 0.511474 7.21049 0.34082 7.64958 0.34082H10.9425C11.4609 0.443133 11.576 0.676016 11.647 1.19763L11.6498 4.85534C11.6441 5.05727 11.7506 5.6565 12.1144 5.79016C12.4055 5.88531 12.5973 5.65243 12.772 5.46784C13.5604 4.63107 14.1231 3.64217 14.6258 2.61819C14.8489 2.16793 15.0407 1.70033 15.2266 1.23312C15.3643 0.886424 15.5805 0.715837 15.971 0.723394L19.1402 0.726219C19.2342 0.726219 19.3292 0.727599 19.4202 0.743173C19.9543 0.834184 20.1006 1.06391 19.9357 1.5854C19.6758 2.40358 19.1701 3.0854 18.6757 3.77038C18.1472 4.50168 17.582 5.20795 17.0578 5.94359C16.5763 6.61536 16.6146 6.95398 17.2127 7.53743Z"
-                    fill="white" fill-opacity="0.51" />
+                <svg class="facebook__icon">
+                  <use xlink:href="images/icons/sprite.svg#facebook__icon"></use>
                 </svg>
               </a></li>
             <li class="footer__social-item">
               <a class="footer__social-link" href="#">
-                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M13.75 0H6.25C2.79875 0 0 2.79875 0 6.25V13.75C0 17.2013 2.79875 20 6.25 20H13.75C17.2013 20 20 17.2013 20 13.75V6.25C20 2.79875 17.2013 0 13.75 0ZM18.125 13.75C18.125 16.1625 16.1625 18.125 13.75 18.125H6.25C3.8375 18.125 1.875 16.1625 1.875 13.75V6.25C1.875 3.8375 3.8375 1.875 6.25 1.875H13.75C16.1625 1.875 18.125 3.8375 18.125 6.25V13.75Z"
-                    fill="white" fill-opacity="0.51" />
-                  <path
-                    d="M10 5C7.23875 5 5 7.23875 5 10C5 12.7613 7.23875 15 10 15C12.7613 15 15 12.7613 15 10C15 7.23875 12.7613 5 10 5ZM10 13.125C8.2775 13.125 6.875 11.7225 6.875 10C6.875 8.27625 8.2775 6.875 10 6.875C11.7225 6.875 13.125 8.27625 13.125 10C13.125 11.7225 11.7225 13.125 10 13.125Z"
-                    fill="white" fill-opacity="0.51" />
-                  <path
-                    d="M15.375 5.29099C15.743 5.29099 16.0412 4.9927 16.0412 4.62474C16.0412 4.25678 15.743 3.9585 15.375 3.9585C15.007 3.9585 14.7087 4.25678 14.7087 4.62474C14.7087 4.9927 15.007 5.29099 15.375 5.29099Z"
-                    fill="white" fill-opacity="0.51" />
+                <svg class="vk__icon">
+                  <use xlink:href="images/icons/sprite.svg#vk__icon"></use>
                 </svg>
               </a></li>
             <li class="footer__social-item">
               <a class="footer__social-link" href="#">
-                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M19.15 4.45C18.6075 3.485 18.0188 3.3075 16.82 3.24C15.6225 3.15875 12.6112 3.125 10.0025 3.125C7.38875 3.125 4.37625 3.15875 3.18 3.23875C1.98375 3.3075 1.39375 3.48375 0.84625 4.45C0.2875 5.41375 0 7.07375 0 9.99625C0 9.99875 0 10 0 10C0 10.0025 0 10.0038 0 10.0038V10.0063C0 12.9163 0.2875 14.5887 0.84625 15.5425C1.39375 16.5075 1.9825 16.6825 3.17875 16.7638C4.37625 16.8338 7.38875 16.875 10.0025 16.875C12.6112 16.875 15.6225 16.8337 16.8212 16.765C18.02 16.6837 18.6087 16.5088 19.1513 15.5438C19.715 14.59 20 12.9175 20 10.0075C20 10.0075 20 10.0038 20 10.0013C20 10.0013 20 9.99875 20 9.9975C20 7.07375 19.715 5.41375 19.15 4.45ZM7.5 13.75V6.25L13.75 10L7.5 13.75Z"
-                    fill="white" fill-opacity="0.51" />
+                <svg class="instagram__icon">
+                  <use xlink:href="images/icons/sprite.svg#instagram__icon"></use>
                 </svg>
-
+              </a></li>
+            <li class="footer__social-item">
+              <a class="footer__social-link" href="#">
+                <svg class="youtube__icon">
+                  <use xlink:href="images/icons/sprite.svg#youtube__icon"></use>
+                </svg>
               </a></li>
           </ul>
         </div>
 
         <div class="scrol">
           <a class="scrol-top" href="#">
-            <svg width="13" height="8" viewBox="0 0 13 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M0.843018 6.407L6.50002 0.75L12.157 6.407L11.45 7.114L6.50002 2.164L1.55002 7.114L0.843018 6.407Z"
-                fill="white" stroke="white" />
+            <svg class="scrol-top__icon">
+              <use xlink:href="images/icons/sprite.svg#scrol-top__icon"></use>
             </svg>
-
-
           </a>
         </div>
+
       </div>
+
     </div>
 
   </footer>

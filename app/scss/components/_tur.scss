@@ -1,0 +1,23 @@
+.tur {
+  margin-bottom: 34px;
+
+  &__title {
+    line-height: 45px;
+    margin-bottom: 18px;
+  }
+
+  &__block {
+    min-height: 628px;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  &__link {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+  }
+
+}
