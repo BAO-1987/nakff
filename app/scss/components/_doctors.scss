@@ -1,5 +1,117 @@
 .doctors {
-  background-size: cover;
-  min-height: 778px;
+  padding: 69px 0 64px;
   margin-bottom: 68px;
+  background-color: rgba(247, 247, 247, 0.86);
+
+  &__title {
+    margin-bottom: 40px;
+  }
+}
+
+.doctors__for {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.doctors__for-info {
+  max-width: 840px;
+  min-height: 239px;
+  background-color: $white;
+  padding: 48px 103px 49px 60px;
+}
+
+
+.doctors__for-img {
+  max-width: 326px;
+  min-height: 454px;
+  width: 100%;
+  margin-bottom: 60px;
+  border-radius: 5px;
+  position: relative;
+  z-index: 10;
+}
+
+
+.doctors__for-title {
+  @extend%Bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: $green1;
+  margin-bottom: 11px;
+}
+
+.doctors__for-position {
+  font-size: 15px;
+  line-height: 19px;
+  color: #515353;
+  margin-bottom: 25px;
+}
+
+.doctors__for-information {
+  font-size: 15px;
+  line-height: 19px;
+  color: $default;
+  max-width: 629px;
+}
+
+.doctors__nav {
+  margin-top: -243px;
+  margin-left: 400px;
+  margin-right: 48px;
+}
+
+
+.doctors__nav-container {
+  max-width: 680px;
+  min-height: 280px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 18px;
+}
+
+.doctors-btn {
+  display: block;
+}
+
+.doctors__nav-img {
+  max-width: 145px;
+  min-height: 173px;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.doctors__nav-title {
+  @extend%Bold;
+  font-size: 16px;
+  line-height: 19px;
+  max-width: 159px;
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.doctors__nav-position {
+  font-size: 13px;
+  line-height: 16px;
+  max-width: 145px;
+  width: 100%;
+}
+
+.doctors__button {
+  position: absolute;
+  margin-left: 66px;
+  
+
+  &-link {
+    padding: 14px 58px 12px 55px;
+    border: 1px solid $green1;
+    border-radius: 5px;
+    @extend%Bold;
+    font-size: 16px;
+    line-height: 17px;
+    color: $green1;
+  }
 }

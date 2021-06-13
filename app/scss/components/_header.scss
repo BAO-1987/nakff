@@ -1,13 +1,12 @@
 .header__top {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .header__logo {
   display: flex;
   justify-content: flex-start;
   margin-right: 65px;
-
 }
 
 .logo__text {
@@ -16,7 +15,6 @@
   line-height: 16px;
   color: #2F2F2F;
   padding-top: 30px;
-  margin-bottom: 24px;
 }
 
 .header__search {
@@ -25,6 +23,7 @@
   padding-top: 39px;
   margin-bottom: 20px;
   position: relative;
+
 }
 
 .search__icon {
@@ -36,24 +35,17 @@
 .search__site {
   position: relative;
   max-width: 290px;
+  max-height: 39px;
   width: 100%;
   border: none;
-  border-bottom: 1px solid #D3D3D3;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.13);
   outline: transparent;
-  padding: 0 0 5px 5px;
+  padding: 0 45px 5px 5px;
   font-size: 11px;
   line-height: 13px;
   color: $default;
 }
 
-.button {
-  background-color: $greybtn;
-  border: none;
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
-  cursor: pointer;
-}
 
 .search__button {
   position: absolute;
@@ -65,17 +57,17 @@
 }
 
 .header__adress {
-  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
   max-width: 225px;
   width: 100%;
-  padding-top: 20px;
+  padding-top: 27px;
   margin-bottom: 20px;
   margin-right: 110px;
   font-size: 16px;
   line-height: 17px;
+  
 }
 
 .adress__button {
@@ -83,7 +75,8 @@
   justify-content: center;
   align-items: center;
   left: -50px;
-}
+  margin-right: 5px;
+ }
 
 .adress__icon {
   width: 14px;
@@ -91,12 +84,15 @@
   fill: #C8C6C6;
 }
 
-.adress__text {
-  max-width: 170px;
-  width: 100%;
-  font-size: 16px;
-  line-height: 17px;
+.header__adress-text {
+  display: block;
+
 }
+
+.adress__text-street {
+  @extend%Bold;
+}
+
 
 .header__phone {
   position: relative;

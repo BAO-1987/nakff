@@ -33,7 +33,7 @@
 
 .about__slider-btn {
   margin-right: 8px;
-  position: relative;
+  // position: relative;
 }
 
 .about__slider-btn:hover {
@@ -53,8 +53,9 @@
   background-size: cover;
   outline: transparent;
   position: relative;
-  z-index: 0;
+  z-index: 10;
   transform: matrix(-1, 0, 0, 1, 0, 0);
+  margin: o auto;
 }
 
 .slider-for::after {

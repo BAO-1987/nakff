@@ -12,6 +12,7 @@
 <body>
 
   <header class="header">
+
     <div class="container">
 
       <div class="header__top">
@@ -25,7 +26,9 @@
           <form class="search" action="#">
             <input class="search__site" type="text" placeholder="Поиск по сайту">
             <button class="button search__button" type="submit">
-              <svg class="search__icon">
+              <svg class="search__icon" version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+                viewBox="0 0 18 17">
                 <use xlink:href="images/icons/sprite.svg#search__icon"></use>
               </svg>
             </button>
@@ -35,12 +38,18 @@
         <div class="header__adress">
           <button class="button adress__button" type="submit">
             <svg class="adress__icon">
+
               <use xlink:href="images/icons/sprite.svg#adress__icon"></use>
             </svg>
           </button>
-          <p class="adress__text">
-            г. Москва,
-            <br> <strong> ул. Угрешская, д.2, стр.7</strong></p>
+          <div class="header__adress-text">
+            <p class="adress__text-city">
+              г. Москва,
+            </p>
+            <p class="adress__text-street">
+              ул. Угрешская, д.2, стр.7
+            </p>
+          </div>
         </div>
 
         <div class="header__phone">
@@ -158,6 +167,7 @@
     </section>
 
     <section class="about">
+
       <div class="container">
 
         <div class="about__syncing">
@@ -248,7 +258,7 @@
                 <use xlink:href="images/icons/sprite.svg#diagnostic__icon"></use>
               </svg>
             </div>
-            <p class="hospitalisation__item-title hospitalisation__item-title-diagnostic">
+            <p class="hospitalisation__item-title hospitalisation__item-title--diagnostic">
               Диагностика 1-2 дня
             </p>
             <span class="hospitalisation__text">
@@ -263,7 +273,7 @@
                 <use xlink:href="images/icons/sprite.svg#biopsy__icon"></use>
               </svg>
             </div>
-            <p class="hospitalisation__item-title hospitalisation__item-title-biopsy">
+            <p class="hospitalisation__item-title hospitalisation__item-title--biopsy">
               Подбор тактики лечения 1 день
             </p>
             <span class="hospitalisation__text">
@@ -278,7 +288,7 @@
                 <use xlink:href="images/icons/sprite.svg#operation__icon"></use>
               </svg>
             </div>
-            <p class="hospitalisation__item-title hospitalisation__item-title-operation">
+            <p class="hospitalisation__item-title hospitalisation__item-title--operation">
               Операция или курс химиотерапии
               <br> 1 день
             </p>
@@ -310,8 +320,70 @@
 
     </section>
 
-    <section class="doctors" style="background-image: url(../images/Group-3.jpg);">
+    <section class="doctors">
+      <h1 class="title doctors__title">Наши врачи </h1>
+
       <div class="wrapper">
+
+        <div class="doctors__for">
+          <div class="doctors__for-img" style="background-image: url(../images/doctors1.jpg);">
+          </div>
+
+          <div class="doctors__for-info">
+            <h2 class="doctors__for-title">Адалов Магомед Магомедович</h2>
+            <h3 class="doctors__for-position"> Заместитель главного врача по хирургии, онколог-хирург, д.м.н</h3>
+            <p class="doctors__for-information"> Душа моя озарена неземной радостью, как эти чудесные весенние утра,
+              которыми я наслаждаюсь от всего
+              сердца. Я совсем один и блаженствую в здешнем краю, словно созданном для таких, как я. Я так счастлив,
+              мой
+              друг</p>
+          </div>
+        </div>
+
+        <div class="doctors__button">
+          <a class="doctors__button-link" href="#"> Наши врачи</a>
+        </div>
+
+        <div class="doctors__nav">
+          
+          <div class="doctors__nav-container">
+            <div class="doctors-btn">
+              <div class="doctors__nav-img" style="background-image: url(../images/doctors1.1.jpg);"></div>
+              <div class="doctors__nav-info">
+                <h4 class="doctors__nav-title">Адалов Магомед Магомедович</h4>
+                <h5 class="doctors__nav-position"> Заместитель главного врача по хирургии, онколог-хирург, д.м.н</h5>
+              </div>
+            </div>
+
+            <div class="doctors-btn">
+              <div class="doctors__nav-img" style="background-image: url(../images/doctors2.2.jpg);"></div>
+              <div class="doctors__nav-info">
+                <h4 class="doctors__nav-title">Багликов Владимир Александрович </h4>
+                <h5 class="doctors__nav-position"> Врач - рентгинолог</h5>
+              </div>
+            </div>
+
+            <div class="doctors-btn">
+
+              <div class="doctors__nav-img" style="background-image: url(../images/doctors3.3.jpg);"></div>
+              <div class="doctors__nav-info">
+                <h4 class="doctors__nav-title">Зуйкина Алена Валентиновна </h4>
+                <h5 class="doctors__nav-position"> Врач ультрозвуковой диагностики</h5>
+              </div>
+            </div>
+
+
+            <div class="doctors-btn">
+              <div class="doctors__nav-img" style="background-image: url(../images/doctors4.4.jpg);"></div>
+              <div class="doctors__nav-info">
+                <h4 class="doctors__nav-title">Иванющенкова Татьяна Михайловна </h4>
+                <h5 class="doctors__nav-position"> Врач ультрозвуковой диагностики</h5>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
 
       </div>
 
@@ -387,6 +459,102 @@
 
     </section>
 
+    <section class="reviews">
+
+      <h1 class="title reviews__title">Отзывы
+      </h1>
+
+      <div class="wrapper">
+
+        <div class="reviews__container">
+
+          <div class="reviews__carousel">
+
+            <div class="reviews__video">
+              <span class="reviews__time">07.07.2020
+              </span>
+              <h2 class="reviews__video-title"> Лечение многочисленных микротравм
+              </h2>
+
+              <div class="reviews__video-block" style="background-image: url(../images/video-bg.jpg)">
+                <a data-fancybox class="reviews__video-link" href="https://youtu.be/LFDaKUHgK7E" target="_blank">
+                  <img class="video__icon" src="images/icons/video.svg" alt="video">
+                </a>
+              </div>
+            </div>
+
+
+            <div class="reviews__information">
+              <span class="reviews__time">07.07.2020
+              </span>
+              <h3 class="reviews__information-title">Операция при хроническом холецистите</h3>
+
+              <div class="reviews__information-block">
+
+                <p class="reviews__information-text"> Проснувшись однажды утром после беспокойного сна, Грегор Замза
+                  обнаружил,
+                  что он у
+                  себя в постели
+                  превратился в страшное насекомое. Лежа на панцирнотвердой спине, он видел, стоило ему приподнять
+                  голову,
+                  свой коричневый, выпуклый, разделенный дугообразными чешуйками живот, на верхушке которого однажды
+                  утром
+                  после беспокойного сна, Грегор Замза обнаружил, что он у себя в постели превратился в страшное
+                  насекомое.
+                  Лежа на панцирнотвердой спине, он видел, стоило ему приподнять голов ...</p>
+                <a class="reviews__information-link" href="#">Читать весь отзыв</a>
+              </div>
+            </div>
+
+
+            <div class="reviews__video">
+              <span class="reviews__time">07.07.2020
+              </span>
+              <h2 class="reviews__video-title"> Лечение многочисленных микротравм
+              </h2>
+
+              <div class="reviews__video-block" style="background-image: url(../images/video-bg.jpg)">
+                <a data-fancybox class="reviews__video-link" href="https://youtu.be/LFDaKUHgK7E" target="_blank">
+                  <img class="video__icon" src="images/icons/video.svg" alt="video">
+                </a>
+              </div>
+            </div>
+
+            <div class="reviews__information">
+              <span class="reviews__time">07.07.2020
+              </span>
+              <h3 class="reviews__information-title">Операция при хроническом холецистите</h3>
+
+              <div class="reviews__information-block">
+
+                <p class="reviews__information-text"> Проснувшись однажды утром после беспокойного сна, Грегор Замза
+                  обнаружил,
+                  что он у
+                  себя в постели
+                  превратился в страшное насекомое. Лежа на панцирнотвердой спине, он видел, стоило ему приподнять
+                  голову,
+                  свой коричневый, выпуклый, разделенный дугообразными чешуйками живот, на верхушке которого однажды
+                  утром
+                  после беспокойного сна, Грегор Замза обнаружил, что он у себя в постели превратился в страшное
+                  насекомое.
+                  Лежа на панцирнотвердой спине, он видел, стоило ему приподнять голов ...</p>
+                <a class="reviews__information-link" href="#">Читать весь отзыв</a>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="reviews__button">
+            <a class="reviews__button-link" href="#">Смотреть все отзывы</a>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
     <section class="tur">
       <h1 class="title tur__title">
         3D тур по клинике
@@ -407,10 +575,7 @@
               <a class="tur-gallery__link tur-gallery__link-terapeft" href="#">
                 Терапевтическое отделение
               </a>
-              <svg class="tur-gallery__icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <path d="M4 12H16.25L11 6.75L11.664 6L18.164 12.5L11.664 19L11 18.25L16.25 13H4V12Z" fill="white" />
-              </svg>
+              <img class="tur-gallery__icon" src="images/icons/arrow.svg" alt="icon">
             </div>
           </div>
 
@@ -419,10 +584,7 @@
               <a class="tur-gallery__link tur-gallery__link-diagnostic" href="#">
                 Отделение лучевой диагностики
               </a>
-              <svg class="tur-gallery__icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <path d="M4 12H16.25L11 6.75L11.664 6L18.164 12.5L11.664 19L11 18.25L16.25 13H4V12Z" fill="white" />
-              </svg>
+              <img class="tur-gallery__icon" src="images/icons/arrow.svg" alt="icon">
             </div>
           </div>
 
@@ -431,10 +593,7 @@
               <a class="tur-gallery__link tur-gallery__link-ortoped" href="#">
                 Отделение травматологии и ортопедии
               </a>
-              <svg class="tur-gallery__icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <path d="M4 12H16.25L11 6.75L11.664 6L18.164 12.5L11.664 19L11 18.25L16.25 13H4V12Z" fill="white" />
-              </svg>
+              <img class="tur-gallery__icon" src="images/icons/arrow.svg" alt="icon">
             </div>
           </div>
 
@@ -443,22 +602,13 @@
               <a class="tur-gallery__link tur-gallery__link-stacionar" href="#">
                 Стационар
               </a>
-              <svg class="tur-gallery__icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <path d="M4 12H16.25L11 6.75L11.664 6L18.164 12.5L11.664 19L11 18.25L16.25 13H4V12Z" fill="white" />
-              </svg>
+              <img class="tur-gallery__icon" src="images/icons/arrow.svg" alt="icon">
             </div>
           </div>
 
           <div class="tur-gallery__slider" style="background-image: url(../images/stacionar.jpg);">
             <div class="tur-gallery__container">
-              <a class="tur-gallery__link tur-gallery__link-stacionar" href="#">
-                Стационар
-              </a>
-              <svg class="tur-gallery__icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <path d="M4 12H16.25L11 6.75L11.664 6L18.164 12.5L11.664 19L11 18.25L16.25 13H4V12Z" fill="white" />
-              </svg>
+              <img class="tur-gallery__icon" src="images/icons/arrow.svg" alt="icon">
             </div>
           </div>
 
@@ -486,20 +636,20 @@
 
           <div class="footer__logo">
             <a class="logo" href="#">
-              <img class="logo__img" src="images/footer-logo.png" alt="клиника НАКФФ">
+              <img class="footer-logo__img" src="images/footer-logo.png" alt="клиника НАКФФ">
             </a>
             <p class="footer__text ">Стационар, госпитализация, скорая медицинская помощь – круглосуточно, без
               выходных
             </p>
           </div>
 
-          <div class="footer__connection">
-            <a class="footer__phone " href="tel:+7(495)0235695">+7 (495) 023-56-95</a>
-            <p class="footer__adress">
-              г. Москва,
-              <br>
-              ул. Угрешская, д.2, стр.7</p>
-          </div>
+
+          <a class="footer__phone " href="tel:+7(495)0235695">+7 (495) 023-56-95</a>
+
+          <p class="footer__adress">
+            г. Москва,
+            <br>
+            ул. Угрешская, д.2, стр.7</p>
 
         </div>
 

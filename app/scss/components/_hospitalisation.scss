@@ -1,6 +1,7 @@
 .hospitalisation {
   margin-bottom: 70px;
   padding: 0 225px 0 214px;
+  background-color: $white;
 
   &__container {
     max-width: 1010px;
@@ -58,12 +59,12 @@
   margin-bottom: 34px;
 }
 
-.hospitalisation__item-title-biopsy {
+.hospitalisation__item-title--biopsy {
   max-width: 150px;
   width: 100%;
 }
 
-.hospitalisation__item-title-operation {
+.hospitalisation__item-title--operation {
   max-width: 160px;
   width: 100%;
   margin-bottom: 15px;

@@ -4,7 +4,7 @@
 @import 'global';
 @import 'libs';
 
-@import 'media';
+@import 'media_mixin';
 
 @import 'components/header';
 @import 'components/banner';
@@ -13,6 +13,7 @@
 @import 'components/about';
 @import 'components/hospitalisation';
 @import 'components/warranty';
+@import 'components/reviews';
 @import 'components/tur';
 @import 'components/tur-gallery';
 @import 'components/map';

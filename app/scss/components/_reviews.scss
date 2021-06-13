@@ -1,0 +1,122 @@
+.reviews {
+  background-color: rgba(246, 246, 246, 0.72);
+  margin-bottom: 33px;
+  padding: 58px 0 18px 0;
+
+  &__title {
+    margin-bottom: 36px;
+  }
+
+}
+
+.reviews__carousel {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 46px;
+   padding-left: 110px;
+}
+
+.reviews__container {
+  max-width: 1180px;
+  width: 100%;
+}
+
+  .reviews__video-title,
+.reviews__information-title {
+    @extend%Bold;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 15px;
+  }
+
+
+.reviews__time {
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  color: #4E4E4E;
+  margin-bottom: 7px;
+}
+
+.reviews__video-block {
+  min-height: 318px;
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+  position: relative;
+}
+
+.reviews__video-block::after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  background-image: linear-gradient(0deg, rgba(11, 11, 11, 0.21), rgba(11, 11, 11, 0.21));
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.reviews__information {
+  max-width: 543px;
+  width: 100%;
+}
+
+.reviews__information-block {
+  background-color: $white;
+  padding: 53px 85px 48px 26px;
+  line-height: 21px;
+  min-height: 318px;
+}
+
+.reviews__video-block,
+.reviews__information-block {
+  margin-bottom: 60px;
+}
+
+.reviews__information-text {
+  margin-bottom: 28px;
+}
+
+.reviews__information-title {
+  margin-bottom: 15px;
+}
+
+.reviews__information-link {
+  color: $green1;
+  border-bottom: 1px solid;
+}
+
+.reviews__information-link:hover {
+  color: $green2;
+}
+
+.reviews__button {
+  float: right;
+  position: relative;
+  top: -31px;
+  z-index: 99;
+}
+
+.reviews__button-link {
+  padding: 15px 18px 11px 24px;
+  color: $green1;
+  @extend%Bold;
+  line-height: 17px;
+  top: -21px;
+  max-width: 172px;
+  width: 100%;
+  border: 1px solid;
+  border-radius: 5px;
+  transition: color 0.3s ease-in;
+}
+
+.reviews__button-link:hover {
+  color: $green2;
+}
